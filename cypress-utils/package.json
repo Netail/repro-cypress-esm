@@ -1,0 +1,23 @@
+{
+    "name": "@repo/cypress-utils",
+    "version": "1.0.0",
+    "type": "module",
+    "files": [
+        "dist"
+    ],
+    "publishConfig": {
+        "access": "public",
+        "directory": "/",
+        "registry": "https://npm.pkg.github.com/"
+    },
+    "scripts": {
+        "build": "tsc"
+    },
+    "peerDependencies": {
+        "cypress": ">=13"
+    },
+    "devDependencies": {
+        "cypress": "^13.17.0",
+        "typescript": "5.7.3"
+    }
+}
